@@ -225,7 +225,7 @@ Morgan Cemetery, a nonprofit, has owed millions to its own president, Louis Cica
 
 All figures are from Morgan-Cemetery Inc.'s Forms 990 (EIN 22-2854827), read on ProPublica: [2016](https://projects.propublica.org/nonprofits/organizations/222854827/201703199349309850/full), [2022](https://projects.propublica.org/nonprofits/organizations/222854827/202333199349331013/full), [2023](https://projects.propublica.org/nonprofits/organizations/222854827/202423219349301702/full), [2024](https://projects.propublica.org/nonprofits/organizations/222854827/202521989349300337/full), [2025](https://projects.propublica.org/nonprofits/organizations/222854827/202641529349301114/full).
 
-| Tax year | Owed to Cicalese or Saucha Trust (principal) | Accrued interest owed | Interest paid that year | Paid to Libitina Co. (his company) | Paid to Harleigh Cemetery (he is president) | Morgan cash at year end |
+| Tax year | Owed to Cicalese or Saucha Trust (principal) | Accrued interest owed | Interest paid that year | Paid to Libitina Co. (he is president) | Paid to Harleigh Cemetery (he is president) | Morgan cash at year end |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2025 | $1,650,000 | not listed | not listed | under $100,000 (his related pay: $93,463) | under $100,000 | $60,205 |
 | 2024 | $2,170,833 | not listed | **$897,833** | $141,556 | $133,100 | $269,541 |
@@ -253,6 +253,168 @@ All figures are from Morgan-Cemetery Inc.'s Forms 990 (EIN 22-2854827), read on 
 - **Motive.** Selling graves repays the president's own trust. That explains why a 15-ft strip unused since at least 2017 is suddenly inventory. Present it as an inference from the filings.
 - **Recovering damages.** Morgan had about $60,000 in operating cash at the end of 2025. The care fund is restricted. If you win money damages, collecting them may be hard. An injunction to stop the burials may be the more useful remedy.
 - **Leverage.** Whether the Board approved Morgan's certificate, and on what terms, is a fair OPRA request and a fair question for the Board or the Attorney General. It is separate from your zoning claim.
+
+## Forensic financial review
+
+**Most consequential finding (F001).** From 2019 to 2025, Morgan-Cemetery Inc. paid at least **$2,904,934** to its own president's creditor entity: **$1,770,833** in principal and **$1,134,101** in interest on a $3,420,833 "Land Share Cert" first held by Louis Cicalese personally and later by Saucha Trust, of which he is trustee \[E001–E010\]. That debt was 89% of Morgan's assets in 2016. The payments sped up in 2024–2025, when operating cash fell from $1,823,614 to $60,205.
+
+This is not proof of wrongdoing. Board-approved land certificates are a lawful way to finance cemetery land in New Jersey (N.J.S.A. 45:27-26). Whether this one was approved, and on what terms, is the open question that decides how serious it is.
+
+**Scope and limits.** The entity is Morgan-Cemetery Inc. (EIN 22-2854827), stand-alone, tax years 2016–2025. All figures are from IRS Forms 990 as rendered by ProPublica. Morgan's filings say its statements are board-reviewed "compilations," so they appear **unaudited**. There are no bank records, the certificate agreement, deeds, or Cemetery Board approval files. Each statement below is labeled **Fact** (from a filing), **Inference** (a calculation or reasoned reading) or **Hypothesis** (needs corroboration).
+
+### 1. Ten-year financial history (Fact) \[E001–E010\]
+
+| Tax year | Program revenue | Total expenses | Cash and savings (end) | Total assets | Debt to Cicalese / Saucha Trust | Accrued interest per Schedule L | Net assets (reported) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2025 | $543,155 | $255,159 | $60,205 | $2,662,977 | $1,650,000 | not listed | $1,012,816 |
+| 2024 | $531,469 | $1,292,984 | $269,541 | $2,910,537 | $2,170,833 | not listed | $737,713 |
+| 2023 | $660,394 | $535,223 | $1,823,614 | $4,516,652 | $2,970,833 | $1,609,214 | $1,545,476 |
+| 2022 | $815,012 | $640,322 | $1,638,305 | $4,316,650 | $2,970,833 | $1,609,214 | $1,338,114 |
+| 2021 | $919,537 | $423,840 | $1,857,146 | $4,349,034 | $3,370,833 | $1,609,208 | $975,808 |
+| 2020 | $715,328 | $377,252 | $1,279,491 | $4,056,742 | $3,370,833 | $1,380,250 | $683,117 |
+| 2019 | $452,448 | $323,732 | $865,952 | $3,970,805 | $3,370,833 | $1,137,292 | $596,262 |
+| 2018 | $366,106 | $170,153 | $741,385 | $4,040,598 | $3,420,833 | $897,833 | $615,744 |
+| 2017 | $352,235 | $110,543 | $503,846 | $3,918,622 | $3,420,833 | $658,375 | $493,157 |
+| 2016 | not captured | $185,996 | $250,099 | $3,843,968 | $3,420,833 | $478,917 | $422,599 |
+
+### 2. Payments to the creditor trust and related entities (Fact, Inference) \[E001–E010\]
+
+| Tax year | Principal repaid (fall in debt) | Interest paid | Harleigh Cemetery (he is president) | Libitina Co. (he is president) | Elevated Inc. (listed under his name) | Share of total expenses going to these parties |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2025 | $520,833 | not listed | under $100,000 | not listed | — | not computable |
+| 2024 | $800,000 | $897,833 | $133,100 | $141,556 | — | **90.7%** |
+| 2023 | $0 | $0 | $112,400 | $217,925 | — | 61.7% |
+| 2022 | $400,000 | $235,938 | $165,000 | — | — | 62.6% |
+| 2021 | $0 | $0 | $123,280 | — | $80,000 | — |
+| 2020 | $0 | $0 | $111,480 | — | — | — |
+| 2019 | $50,000 | $0 | $126,385 | — | — | — |
+| 2018 | $0 | $330 | — | — | $20,000 | — |
+| 2017 | $0 | $0 | — | — | $15,000 | — |
+| **Total** | **$1,770,833** | **$1,134,101** | **$771,645** | **$359,481** | **$115,000** |  |
+
+The share column is (interest + Harleigh + Libitina) ÷ total expenses; for 2024 that is ($897,833 + $133,100 + $141,556) ÷ $1,292,984. Principal repayments are financing outflows, not expenses, so they are excluded. Harleigh is listed only above the $100,000 reporting threshold, so smaller years are unknown. The total of all identified flows to Cicalese-linked parties is **$4,151,060**. That is not a measure of personal benefit: Harleigh is itself a nonprofit cemetery and may be billing for real operating work.
+
+### 3. Control map (Fact unless marked) \[E001–E011\]
+
+```
+Louis Cicalese
+ ├─ President ──────────────────▶ Morgan-Cemetery Inc. (nonprofit, 501(c)(13))
+ ├─ Trustee ───────────────────▶ Saucha Trust ── lender to Morgan ($3.42M certificate, 7%)
+ │                                         └─ also lender to Washington Cemetery ($3.0M certificate)
+ ├─ President ──────────────────▶ Harleigh Cemetery Association ── paid by Morgan for operations
+ ├─ President ──────────────────▶ Libitina Co. (S corp, Tinton Falls) ── paid for sales and marketing
+ └─ Linked (Sched. L lists payments under his name) ▶ Elevated Inc. (S corp, Utah) ── paid for IT, sales and marketing
+
+Morgan board, 2024–2025
+ ├─ Michelle Cicalese ── trustee; his sister (2016 Sched. O); Libitina employee
+ ├─ Michael Carvin ──── trustee; Libitina employee
+ ├─ David Jacobs ────── trustee; his firm (CFO Direct LLC) does Libitina's accounting
+ └─ Michael Baratta ─── vice president; sole member of Death Care Services (paid about $4,000/yr)
+```
+
+### 4. Findings
+
+| ID | Finding | Amount and years | Evidence | Evidence strength | Materiality | Concern |
+| --- | --- | --- | --- | --- | --- | --- |
+| F001 | Morgan paid its president's creditor trust $2.9M, emptying its operating cash | $2,904,934, 2019–2025; cash $1.82M → $60K | E001–E010 | Strong | 89% of 2016 assets; 2024 cash outflow to the trust $1,697,833 vs. $531,469 program revenue | **High** while Board approval is unverified |
+| F002 | Interest built up at 7% a year but was kept off the balance sheet and out of expenses, then $897,833 was expensed at once | $1.61M accrued by 2021; 2024 lump sum | E002–E009 | Strong (figures); Moderate (reading) | Accrued interest was 165% of 2021 net assets | Medium |
+| F003 | $711,381 of accrued interest is no longer reported, with no explanation | 2023 → 2024 | E008, E009 | Strong (absence) | 24% of 2024 total assets | Undetermined |
+| F004 | Most spending goes to parties the president controls or leads | 61.7%–90.7% of expenses, 2022–2024 | E007–E009 | Strong | $1.17M in 2024 | Medium |
+| F005 | The board is not independent of the president | 2016–2025 | E001, E008, E009 | Strong | Governance; approved the insider loan | Medium |
+| F006 | Inconsistent and late disclosures | 2023–2024 | E008, E009 | Strong | Debt overstated by $450,000 on Sched. L in one year | Low–Medium |
+| F007 | The same insider-certificate structure at another of his cemeteries | Washington, 2022: $3.46M owed | E011, E012 | Moderate | Pattern | Medium |
+| F008 | The perpetual-care fund appears properly funded | 2022–2023 | E007, E008, E014 | Moderate | — | **Low (lead weakened)** |
+
+**F001 – Payments to the president's trust (Fact, Inference).**
+
+- Fact: the debt fell from $3,420,833 (2016) to $1,650,000 (2025) = $1,770,833. Interest expense of $235,938 (2022) and $897,833 (2024), plus $330 (2018) = $1,134,101.
+- Fact: in 2024, $800,000 principal + $897,833 interest = $1,697,833 left for the trust. Cash fell $1,554,073 that year, from $1,823,614 to $269,541.
+- Ordinary explanation: a Board-approved land certificate is repaid from plot sales, and paying it down reduces interest. Paying debt from cash is normal.
+- Adverse explanation: an insider-set schedule repaid the insider first and left the nonprofit with little cash. That is especially concerning if the land was overvalued when it was put into the certificate.
+- What decides it: the Cemetery Board approval and terms under 45:27-26, the certificate agreement, the land's deed and appraisal, and board minutes approving the 2024 payments.
+
+**F002 – Interest kept off the books (Fact, Inference).**
+
+- Fact: Schedule L's accrued-interest balance rose by $239,458 a year from 2017 to 2019, and by $471,916 over 2020–2021 combined. That is exactly 7% of the principal ($3,420,833 × 7% = $239,458).
+- Fact: in those years Part IX shows interest expense of $0 (or $330). Total liabilities equal the principal plus small payables, with no accrued interest included.
+- Inference: on an accrual basis, Morgan's net assets would have been **negative** every year from 2016 to 2023, by $56,318 to $697,133. For 2021: $975,808 − $1,609,208 = −$633,400.
+- Observation: the 2024 interest expense ($897,833) exactly equals the accrued-interest balance reported at the end of 2018. That may mean interest accrued through 2018 was paid in 2024, but the filings don't say.
+- Ordinary explanation: Morgan may account on a cash basis and record interest only when paid. Small nonprofits using unaudited compilations often do.
+- Adverse explanation: leaving a large insider liability off the balance sheet made the nonprofit look solvent.
+- What decides it: the accountant's basis-of-accounting note and the certificate's interest terms.
+
+**F003 – Missing accrued interest (Fact).** At the end of 2023, Schedule L showed $1,609,214 of accrued interest. In 2024 Morgan paid $897,833, and the 2024 and 2025 Schedule L list only the principal. That leaves $711,381 neither paid nor reported. It may have been forgiven (and if so, whether that was reported as income), deferred, or folded into something else. **Unresolved.**
+
+**F004 – Spending concentrated in related parties (Fact, Inference).** Morgan reports no employees (salaries $0 every year). An outside operator is therefore expected, and that is the main benign explanation. The concern is that every major supplier — lender, operator, and sales and marketing — is an entity the president controls or leads, and there is no evidence of competitive pricing.
+
+**F005 – Board independence (Fact).** Morgan's own Schedule O discloses these relationships and says conflicts are disclosed to lot owners each year. Disclosure is not the same as independent approval. No trustee in 2024–2025 is free of ties to the president or his companies.
+
+**F006 – Disclosure quality (Fact).**
+
+- The 2023 Schedule L lists the trust debt at $3,420,833, while the balance sheet shows $2,970,833.
+- The 2024 Schedule L marks the debt as a loan "from" the organization, though the balance sheet shows Morgan as the borrower.
+- The 2024 Schedule D notes "Late Receiving Missing Required Account Information."
+- Payments matching his related compensation appear as "Other" expense ($43,301 in 2016; $20,338 in 2019).
+
+**F007 – Pattern at another cemetery (Fact).** Washington Cemetery Association's 2022 Form 990 shows a $3,000,000 Saucha Trust debt certificate with $2,395,096 outstanding plus $1,064,297 in interest. In 2013, Machpelah Cemetery applied to the Board to issue a certificate to Saucha Trust; the Board tabled it.
+
+**F008 – Care fund (Fact, Inference; lead weakened).** State law requires 15% of each grave's initial sale price to go into the Maintenance and Preservation Fund. Morgan's deposits exceed 15% of its reported grave and pre-need sales: $86,336 against $73,929 in 2022, and $101,648 against $55,911 in 2023. The fund grew from $401,457 (2017) to $980,020 (2025). No shortfall is evident.
+
+### 5. Hypotheses
+
+| Hypothesis | Supporting facts | Weakening facts | Status | Records needed |
+| --- | --- | --- | --- | --- |
+| The certificate was Board-approved on fair terms | Statute allows it; Schedule L says it was "approved by board" with a written agreement | "Board" there means Morgan's own board; no Cemetery Board approval found | Open | Cemetery Board approval file (OPRA) |
+| The land behind the certificate was overvalued | Debt about equal to grave inventory ($3.42M vs. $3.34M), set by insiders | No appraisal seen | Open | Deed, appraisal, certificate |
+| Debt repayment pressure drives new grave sales, including the fence-line strip | 2024–25 repayment pace; cash near zero; $1.65M still owed; perimeter burials began about mid-2025 | Grave sales also fund ordinary operations; revenue fell after 2021 | **Hypothesis only** | Grave sales by section and date; certificate repayment terms |
+| Interest omission was an accounting-basis choice | Unaudited compilation | Schedule L tracked it precisely for years | Open | Accountant's compilation report |
+| The care fund was underfunded | — | Deposits exceed 15% of reported sales | **Weakened** | Board M&P filings to confirm |
+
+### 6. Timeline
+
+| Date | Event | Source |
+| --- | --- | --- |
+| Oct. 2013 | Machpelah Cemetery applies to the Board to issue a certificate to Saucha Trust; tabled | E013 |
+| Apr. 2015 | Morgan-Cemetery Inc. receives its IRS exemption | E010 |
+| 2016 | Morgan owes Cicalese $3,420,833 ("Land Share Cert") plus $478,917 interest | E001 |
+| 2017–2018 | Elevated Inc. (payments listed under his name) paid $35,000 | E002, E003 |
+| 2019 | First principal reduction ($50,000); Harleigh paid $126,385 | E004 |
+| 2021 | The creditor is now listed as Saucha Trust; accrued interest $1.61M | E006 |
+| 2022 | $400,000 principal and $235,938 interest paid | E007 |
+| 2023 | Libitina paid $217,925; cash peaks at $1.82M | E008 |
+| 2024 | $800,000 principal and $897,833 interest paid; cash falls to $269,541 | E009 |
+| Apr. 7, 2025 | Township enforcement notice on perimeter burials | E015 |
+| 2025 | $520,833 principal paid; cash $60,205; about 20 fence-line burials after the notice | E010, owner |
+
+### 7. Records to request, in priority order
+
+1. **NJ Cemetery Board (OPRA):** any approval of Morgan's land-share or debt certificate under N.J.S.A. 45:27-26, with face value, rate, term and repayment priority.
+2. **Burlington County Clerk:** deeds conveying land to Morgan since 2010, with grantors and consideration. This shows whether the certificate land came from Cicalese, and whether it includes the fence-line strip.
+3. **Morgan (by written request to the association):** the certificate agreement, board minutes approving 2022–2025 payments, the Harleigh and Libitina service agreements, and the accountant's compilation reports. Lot owners may have rights to these.
+4. **NJ Cemetery Board:** Morgan's annual reports and M&P Fund statements, 2015–2025.
+5. **Same requests for Washington Cemetery,** to test the pattern (F007).
+
+### 8. Evidence register
+
+| ID | Document | Period | Source |
+| --- | --- | --- | --- |
+| E001 | Morgan-Cemetery Inc. Form 990 | FY2016 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827/201703199349309850/full) |
+| E002 | Form 990 | FY2017 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827/201843189349301564/full) |
+| E003 | Form 990 | FY2018 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827/201913199349313996/full) |
+| E004 | Form 990 | FY2019 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827/202003219349305840/full) |
+| E005 | Form 990 | FY2020 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827/202133199349329668/full) |
+| E006 | Form 990 | FY2021 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827/202213199349300401/full) |
+| E007 | Form 990 | FY2022 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827/202333199349331013/full) |
+| E008 | Form 990 | FY2023 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827/202423219349301702/full) |
+| E009 | Form 990 | FY2024 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827/202521989349300337/full) |
+| E010 | Form 990, plus organization summary page | FY2025 | [ProPublica filing](https://projects.propublica.org/nonprofits/organizations/222854827/202641529349301114/full); [summary](https://projects.propublica.org/nonprofits/organizations/222854827) |
+| E011 | Washington Cemetery Association Form 990 | FY2022 | [ProPublica](https://projects.propublica.org/nonprofits/organizations/221367890/202333199349330923/full) |
+| E012 | Washington Cemetery Schedule L (Saucha Trust certificate) | FY2022 | same as E011 |
+| E013 | NJ Cemetery Board minutes | Oct. 10, 2013 | [NJ Consumer Affairs](https://www.njconsumeraffairs.gov/cem/Minutes/cemmin_101013.pdf) |
+| E014 | N.J.S.A. 45:27-13 (15% M&P deposit), as quoted in bill A602; N.J.S.A. 45:27-26 (certificates) | current | [A602](https://www.njleg.state.nj.us/bill-search/2026/A602/bill-text?f=A1000&n=602_I1); [45:27-26](https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/41981/44261?f=templates$fn=document-frame.htm$3.0) |
+| E015 | Cinnaminson Notice of Enforcement and Abatement | Apr. 7, 2025 | Owner's copy (project folder) |
+
+**Methods.** Figures are as reported, in US dollars, not adjusted for inflation. "Cash" = Part X lines 1 + 2. Principal repaid = the year-over-year fall in Part X line 22. The share of expenses uses Part IX total expenses as the denominator. Dollar changes are used instead of percentages where a base is zero. Figures were read from ProPublica's rendering of IRS e-file data; check against the official returns before filing anything.
 
 ## Fence-line burials: what the law allows
 

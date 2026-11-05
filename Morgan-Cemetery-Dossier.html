@@ -165,9 +165,42 @@ td.score.lo .num { color: hsl(var(--lo)); } td.score.lo .bar span { background: 
 .totop { position: fixed; right: 16px; bottom: 16px; z-index: 2; }
 footer { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 0 16px 48px; color: hsl(var(--muted-foreground)); font-size: 12.5px; }
 
+/* Photo gallery */
+.gallery { position: relative; border: 1px solid hsl(var(--border)); border-radius: var(--radius);
+  background: hsl(var(--card-glass)); backdrop-filter: blur(14px); box-shadow: var(--shadow); padding: 28px 32px; margin: 0 0 20px; }
+.gallery::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 1px; border-radius: var(--radius) var(--radius) 0 0;
+  background: linear-gradient(90deg, transparent, hsl(var(--brand) / .45), transparent); }
+.ph-grid { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.ph-grid li { margin: 0; }
+.ph { position: relative; display: block; width: 100%; aspect-ratio: 1; padding: 0; overflow: hidden; cursor: zoom-in;
+  border: 1px solid hsl(var(--border)); border-radius: calc(var(--radius) - 4px); background: hsl(var(--muted)); }
+.ph img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
+.ph:hover img { transform: scale(1.05); }
+.ph:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
+.ph-date { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 8px 6px; text-align: left;
+  font: 500 10.5px/1.2 "JetBrains Mono", ui-monospace, monospace; color: #fff;
+  background: linear-gradient(to top, rgb(0 0 0 / .7), transparent); }
+.lb { width: 100vw; height: 100vh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0;
+  background: rgb(0 0 0 / .92); color: #fafafa; flex-direction: column; }
+.lb[open] { display: flex; }
+.lb::backdrop { background: rgb(0 0 0 / .6); }
+.lb .btn-outline { background: rgb(255 255 255 / .08); color: #fafafa; border-color: rgb(255 255 255 / .2); }
+.lb .btn-outline:hover { background: rgb(255 255 255 / .16); }
+.lb-top, .lb-bar { flex: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px; }
+.lb-count { font: 500 12px/1 "JetBrains Mono", ui-monospace, monospace; color: rgb(255 255 255 / .7); }
+.lb-stage { flex: 1 1 auto; min-height: 0; overflow: auto; display: flex; padding: 0 16px; overscroll-behavior: contain; }
+.lb-stage img { margin: auto; max-width: 100%; max-height: 100%; object-fit: contain; cursor: zoom-in; user-select: none; }
+.lb-stage.zoomed img { max-width: none; max-height: none; cursor: zoom-out; }
+.lb-cap { flex: 1 1 auto; min-width: 0; text-align: center; font-size: 14px; line-height: 1.4; display: flex; flex-direction: column; gap: 2px; }
+.lb-date { font: 500 11px/1.2 "JetBrains Mono", ui-monospace, monospace; color: rgb(255 255 255 / .65); }
+
 @media (max-width: 900px) {
+  .gallery { padding: 22px 18px; }
+  .ph-grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; }
+  .lb-bar { flex-wrap: wrap; }
+  .lb-cap { order: -1; flex-basis: 100%; }
   header.top { padding-top: 40px; }
-  .layout { grid-template-columns: 1fr; gap: 20px; }
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   header.top .wrap { flex-direction: column-reverse; }
   .actions { justify-content: flex-start; }
   .tl-bar.ready { grid-template-columns: 1fr; gap: 6px; }
@@ -181,6 +214,10 @@ footer { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padd
   :root, :root[data-theme] { --background: 0 0% 100%; --foreground: 0 0% 0%; --card: 0 0% 100%; --card-glass: 0 0% 100%;
     --muted: 0 0% 95%; --muted-foreground: 0 0% 30%; --border: 0 0% 80%; color-scheme: light; }
   .tl-wrap, .actions, .totop { display: none !important; }
+  .gallery { border: none; box-shadow: none; backdrop-filter: none; padding: 0; margin: 0 0 18pt; }
+  .gallery::before, .lb { display: none !important; }
+  .ph-grid { grid-template-columns: repeat(4, 1fr); }
+  .ph img { transform: none !important; }
   body { font-size: 10.5pt; }
   header.top { padding: 0 0 12pt; }
   .layout { display: block; padding: 0; }
@@ -229,7 +266,21 @@ footer { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padd
     <div class="label"><span>On this page</span></div>
     <ol><li><a href="#purpose-and-sourcing-standard"><span class="n">01</span>Purpose and sourcing standard</a></li><li><a href="#executive-summary"><span class="n">02</span>Executive summary</a></li><li><a href="#case-scorecard-jev"><span class="n">03</span>Case scorecard (Jev)</a></li><li><a href="#morgan-cemetery-history-control-and-money"><span class="n">04</span>Morgan Cemetery: history, control and money</a></li><li><a href="#township-enforcement-notice-april-7-2025"><span class="n">05</span>Township enforcement notice (April 7, 2025)</a></li><li><a href="#cemdevco-who-runs-morgan-cemetery"><span class="n">06</span>CemDevCo: who runs Morgan Cemetery</a></li><li><a href="#louis-cicalese-background-and-pattern"><span class="n">07</span>Louis Cicalese: background and pattern</a></li><li><a href="#litigation-and-regulatory-log"><span class="n">08</span>Litigation and regulatory log</a></li><li><a href="#complaints-in-detail"><span class="n">09</span>Complaints in detail</a></li><li><a href="#follow-the-money-morgan-owes-its-president"><span class="n">10</span>Follow the money: Morgan owes its president</a></li><li><a href="#forensic-financial-review"><span class="n">11</span>Forensic financial review</a></li><li><a href="#fence-line-burials-what-the-law-allows"><span class="n">12</span>Fence-line burials: what the law allows</a></li><li><a href="#your-fence-and-land-digging-next-to-the-line"><span class="n">13</span>Your fence and land: digging next to the line</a></li><li><a href="#records-to-get-and-questions-for-counsel"><span class="n">14</span>Records to get and questions for counsel</a></li><li><a href="#sources"><span class="n">15</span>Sources</a></li></ol>
   </nav>
-  <main><section id="purpose-and-sourcing-standard" aria-labelledby="purpose-and-sourcing-standard-h"><div class="kicker">Section 01</div><h2 id="purpose-and-sourcing-standard-h">Purpose and sourcing standard</h2>
+  <main><div class="gallery" id="photos" aria-labelledby="photos-h"><div class="kicker">Site photos · 11</div><h2 id="photos-h">Photo record</h2>
+<p>Photos taken from the adjoining lot along the fence line, oldest first. Dates come from each camera file; the March 2025 image was received by text. Click any photo to enlarge it, then click again to zoom.</p>
+<ul class="ph-grid"><li><button type="button" class="ph" data-full="photos/20250227_094013.jpg" data-date="Feb 27, 2025 · 9:40 am" data-cap="Backhoe bucket digging at the base of the fence."><img src="photos/20250227_094013-thumb.jpg" alt="Backhoe bucket digging at the base of the fence." loading="lazy" decoding="async"><span class="ph-date">Feb 27, 2025 · 9:40 am</span></button></li><li><button type="button" class="ph" data-full="photos/20250227_094019.jpg" data-date="Feb 27, 2025 · 9:40 am" data-cap="Excavation against a fence post, next to the footing."><img src="photos/20250227_094019-thumb.jpg" alt="Excavation against a fence post, next to the footing." loading="lazy" decoding="async"><span class="ph-date">Feb 27, 2025 · 9:40 am</span></button></li><li><button type="button" class="ph" data-full="photos/20250227_094023.jpg" data-date="Feb 27, 2025 · 9:40 am" data-cap="JCB backhoe working directly behind the fence."><img src="photos/20250227_094023-thumb.jpg" alt="JCB backhoe working directly behind the fence." loading="lazy" decoding="async"><span class="ph-date">Feb 27, 2025 · 9:40 am</span></button></li><li><button type="button" class="ph" data-full="photos/Screenshot_20250317_185053_Messages.jpg" data-date="Received by text, Mar 17, 2025" data-cap="Orange marker flags along the fence; backhoe and crew at the cemetery road."><img src="photos/Screenshot_20250317_185053_Messages-thumb.jpg" alt="Orange marker flags along the fence; backhoe and crew at the cemetery road." loading="lazy" decoding="async"><span class="ph-date">Received by text, Mar 17, 2025</span></button></li><li><button type="button" class="ph" data-full="photos/20250503_100051.jpg" data-date="May 3, 2025 · 10:00 am" data-cap="Backhoe digging a grave just over the fence."><img src="photos/20250503_100051-thumb.jpg" alt="Backhoe digging a grave just over the fence." loading="lazy" decoding="async"><span class="ph-date">May 3, 2025 · 10:00 am</span></button></li><li><button type="button" class="ph" data-full="photos/20250504_193700.jpg" data-date="May 4, 2025 · 7:37 pm" data-cap="Disturbed soil at the edge of the cemetery road, by the fence."><img src="photos/20250504_193700-thumb.jpg" alt="Disturbed soil at the edge of the cemetery road, by the fence." loading="lazy" decoding="async"><span class="ph-date">May 4, 2025 · 7:37 pm</span></button></li><li><button type="button" class="ph" data-full="photos/20250617_134011.jpg" data-date="Jun 17, 2025 · 1:40 pm" data-cap="Marker flags and new graves in the strip between the fence and the road."><img src="photos/20250617_134011-thumb.jpg" alt="Marker flags and new graves in the strip between the fence and the road." loading="lazy" decoding="async"><span class="ph-date">Jun 17, 2025 · 1:40 pm</span></button></li><li><button type="button" class="ph" data-full="photos/20261026_114143.jpg" data-date="Oct 26, 2026 · 11:41 am" data-cap="New graves in the strip beside the fence."><img src="photos/20261026_114143-thumb.jpg" alt="New graves in the strip beside the fence." loading="lazy" decoding="async"><span class="ph-date">Oct 26, 2026 · 11:41 am</span></button></li><li><button type="button" class="ph" data-full="photos/20261026_114149.jpg" data-date="Oct 26, 2026 · 11:41 am" data-cap="Plywood sheet on the grass against the fence."><img src="photos/20261026_114149-thumb.jpg" alt="Plywood sheet on the grass against the fence." loading="lazy" decoding="async"><span class="ph-date">Oct 26, 2026 · 11:41 am</span></button></li><li><button type="button" class="ph" data-full="photos/20261103_093234.jpg" data-date="Nov 3, 2026 · 9:32 am" data-cap="Dump truck on the cemetery road; boards over a fresh dig by the fence."><img src="photos/20261103_093234-thumb.jpg" alt="Dump truck on the cemetery road; boards over a fresh dig by the fence." loading="lazy" decoding="async"><span class="ph-date">Nov 3, 2026 · 9:32 am</span></button></li><li><button type="button" class="ph" data-full="photos/20261103_093246.jpg" data-date="Nov 3, 2026 · 9:32 am" data-cap="Open grave covered with boards and a soil pile, next to the fence."><img src="photos/20261103_093246-thumb.jpg" alt="Open grave covered with boards and a soil pile, next to the fence." loading="lazy" decoding="async"><span class="ph-date">Nov 3, 2026 · 9:32 am</span></button></li></ul>
+</div>
+<dialog class="lb" id="lb" aria-label="Photo viewer">
+  <div class="lb-top"><span class="lb-count" id="lb-count"></span>
+    <button type="button" class="btn btn-outline lb-close" id="lb-close" aria-label="Close">Close ✕</button></div>
+  <div class="lb-stage" id="lb-stage"><img id="lb-img" alt=""></div>
+  <div class="lb-bar">
+    <button type="button" class="btn btn-outline" id="lb-prev" aria-label="Previous photo">← Prev</button>
+    <div class="lb-cap"><span class="lb-date" id="lb-date"></span><span id="lb-cap"></span></div>
+    <button type="button" class="btn btn-outline" id="lb-next" aria-label="Next photo">Next →</button>
+  </div>
+</dialog>
+<section id="purpose-and-sourcing-standard" aria-labelledby="purpose-and-sourcing-standard-h"><div class="kicker">Section 01</div><h2 id="purpose-and-sourcing-standard-h">Purpose and sourcing standard</h2>
 <p>This dossier gathers public records on Morgan Cemetery (Cinnaminson Township, Burlington County, NJ), its operator Cemetery Development Company, Inc. (&quot;CemDevCo&quot;), and its president Louis Cicalese. It is meant for an attorney or the township reviewing burials placed at the cemetery&#39;s boundary with an adjoining private lot.</p>
 <ul><li><p><strong>Sourcing:</strong> only public sources. Every factual claim links to the page it came from.</p></li><li><p><strong>Findings vs. allegations:</strong> each item is labeled. <strong>Finding</strong> = a regulator, court or the party itself admitted or decided it. <strong>Allegation</strong> = a complaint, a lawsuit claim or a press report not yet decided.</p></li><li><p><strong>Limits:</strong> this is research, not legal advice. Online sources are incomplete; court dockets and Cemetery Board files must be pulled directly (see the records-request section).</p></li><li><p><strong>Subject&#39;s side:</strong> where the operator or its attorneys responded publicly, that response is included.</p></li></ul>
 </section><section id="executive-summary" aria-labelledby="executive-summary-h"><div class="kicker">Section 02</div><h2 id="executive-summary-h">Executive summary</h2>
@@ -456,6 +507,64 @@ Morgan board, 2024–2025
       try { localStorage.setItem(key, JSON.stringify(saved)); } catch (e) {}
     });
   });
+})();
+</script>
+
+<script>
+// Photo gallery: click a tile to open it large; click the large photo to zoom
+// to full resolution (drag or scroll to pan). Arrow keys step, Esc closes.
+(function () {
+  var tiles = Array.prototype.slice.call(document.querySelectorAll('.ph'));
+  var lb = document.getElementById('lb');
+  if (!tiles.length || !lb || !lb.showModal) return;
+  var img = document.getElementById('lb-img'), stage = document.getElementById('lb-stage');
+  var cur = 0, drag = null;
+  function show(i) {
+    cur = (i + tiles.length) % tiles.length;
+    var t = tiles[cur];
+    stage.classList.remove('zoomed');
+    img.src = t.dataset.full; img.alt = t.dataset.cap;
+    document.getElementById('lb-date').textContent = t.dataset.date;
+    document.getElementById('lb-cap').textContent = t.dataset.cap;
+    document.getElementById('lb-count').textContent = (cur + 1) + ' / ' + tiles.length;
+    new Image().src = tiles[(cur + 1) % tiles.length].dataset.full;   // preload next
+  }
+  tiles.forEach(function (t, i) {
+    t.addEventListener('click', function () { show(i); lb.showModal(); });
+  });
+  document.getElementById('lb-prev').addEventListener('click', function () { show(cur - 1); });
+  document.getElementById('lb-next').addEventListener('click', function () { show(cur + 1); });
+  document.getElementById('lb-close').addEventListener('click', function () { lb.close(); });
+  lb.addEventListener('close', function () { img.removeAttribute('src'); tiles[cur].focus(); });
+  lb.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowLeft') show(cur - 1);
+    else if (e.key === 'ArrowRight') show(cur + 1);
+  });
+  stage.addEventListener('click', function (e) { if (e.target === stage) lb.close(); });
+  // Click to toggle zoom, keeping the clicked spot under the pointer
+  img.addEventListener('click', function (e) {
+    if (drag && drag.moved) return;
+    var r = img.getBoundingClientRect(), fx = (e.clientX - r.left) / r.width, fy = (e.clientY - r.top) / r.height;
+    stage.classList.toggle('zoomed');
+    if (stage.classList.contains('zoomed')) {
+      stage.scrollLeft = fx * stage.scrollWidth - stage.clientWidth / 2;
+      stage.scrollTop = fy * stage.scrollHeight - stage.clientHeight / 2;
+    }
+  });
+  // Drag to pan while zoomed (touch already scrolls natively)
+  img.addEventListener('dragstart', function (e) { e.preventDefault(); });
+  stage.addEventListener('pointerdown', function (e) {
+    drag = null;
+    if (!stage.classList.contains('zoomed') || e.pointerType !== 'mouse') return;
+    drag = { x: e.clientX, y: e.clientY, l: stage.scrollLeft, t: stage.scrollTop, moved: false, down: true };
+  });
+  window.addEventListener('pointermove', function (e) {
+    if (!drag || !drag.down) return;
+    var dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    if (Math.abs(dx) + Math.abs(dy) > 4) drag.moved = true;
+    stage.scrollLeft = drag.l - dx; stage.scrollTop = drag.t - dy;
+  });
+  window.addEventListener('pointerup', function () { if (drag) drag.down = false; });
 })();
 </script>
 

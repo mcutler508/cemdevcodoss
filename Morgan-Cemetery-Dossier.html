@@ -76,11 +76,14 @@ header.top h1 em { font-style: italic; color: hsl(var(--muted-foreground)); }
 
 /* Layout */
 .layout { max-width: 1200px; margin: 0 auto; padding: 8px 16px 96px; display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 32px; }
-nav.toc { position: sticky; top: 20px; align-self: start; max-height: calc(100vh - 40px); overflow: auto;
+nav.toc { position: sticky; top: 20px; align-self: start; max-height: calc(100vh - 40px); overflow: hidden;
+  display: flex; flex-direction: column;
   border: 1px solid hsl(var(--border)); border-radius: var(--radius); background: hsl(var(--card-glass));
   backdrop-filter: blur(12px); padding: 12px; box-shadow: var(--shadow); }
 nav.toc .label { font: 500 12px/1 Inter, sans-serif; color: hsl(var(--muted-foreground)); padding: 6px 8px 12px; }
-nav.toc ol { list-style: none; margin: 0; padding: 0; }
+nav.toc ol { list-style: none; margin: 0; padding: 0 2px 0 0; flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
+  scrollbar-width: thin; scrollbar-color: hsl(var(--border)) transparent; }
+nav.toc .nav-viz, nav.toc .label { flex: none; }
 nav.toc .label { display: flex; justify-content: space-between; align-items: baseline; }
 .nav-viz { display: none; position: relative; margin: 0 0 12px; border: 1px solid hsl(var(--border)); border-radius: calc(var(--radius) - 4px);
   background: radial-gradient(120% 90% at 50% 0%, hsl(var(--brand) / .10), transparent 70%), hsl(var(--muted) / .35); overflow: hidden; }
@@ -88,7 +91,7 @@ nav.toc .label { display: flex; justify-content: space-between; align-items: bas
 .nav-viz::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 52px; pointer-events: none;
   background: linear-gradient(to bottom, transparent, hsl(var(--card) / .92)); }
 .nav-viz-cap { z-index: 1; }
-.nav-viz canvas { display: block; width: 100%; height: 168px; cursor: pointer; }
+.nav-viz canvas { display: block; width: 100%; height: 156px; cursor: pointer; }
 .nav-viz-cap { position: absolute; left: 10px; right: 10px; bottom: 8px; display: flex; gap: 8px; align-items: baseline; pointer-events: none;
   font-size: 12px; line-height: 1.3; color: hsl(var(--foreground)); }
 .nav-viz-cap .cap-n { font: 500 11px/1 "JetBrains Mono", ui-monospace, monospace; color: hsl(var(--brand)); flex: none; }
@@ -150,7 +153,8 @@ footer { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padd
 @media (max-width: 900px) {
   header.top { padding-top: 40px; }
   .layout { grid-template-columns: 1fr; gap: 20px; }
-  nav.toc { position: static; max-height: none; }
+  nav.toc { position: static; max-height: none; overflow: visible; }
+  nav.toc ol { overflow: visible; }
   main section { padding: 22px 18px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
@@ -340,6 +344,8 @@ footer { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padd
         if (e.isIntersecting) {
           links.forEach(function (l) { l.classList.remove('active'); });
           var a = map[e.target.id]; if (a) a.classList.add('active');
+          if (a) { var ol = a.closest('ol'), top = a.offsetTop - ol.offsetTop, h = ol.clientHeight;
+            if (top < ol.scrollTop || top + a.offsetHeight > ol.scrollTop + h) ol.scrollTo({ top: Math.max(0, top - h / 3), behavior: 'smooth' }); }
           window.dispatchEvent(new CustomEvent('sectionchange', { detail: links.indexOf(a) }));
         }
       });
@@ -387,8 +393,8 @@ const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true 
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 50);
-camera.position.set(0, 0.9, 7.4);
-camera.lookAt(0, -0.05, 0);
+camera.position.set(0, 1.0, 7.8);   // fixed: the whole spiral is always in frame
+camera.lookAt(0, 0.25, 0);
 
 function cssColor(name) {
   const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim().split(/\s+/);
@@ -498,13 +504,8 @@ resize();
 
 const tmp = new THREE.Vector3();
 function render(t) {
-  const sway = reduce ? 0 : Math.sin(t * 0.00035) * 0.12;
-  rot += (rotTarget - rot) * (reduce ? 1 : 0.07);
-  group.rotation.y = rot + sway;
-  // Keep the camera framed on the current node's height
-  const y = pts[active].y * 0.35 + group.position.y;
-  camera.position.y += ((0.9 + y) - camera.position.y) * (reduce ? 1 : 0.07);
-  camera.lookAt(0, y - 0.05, 0);
+  rot += (rotTarget - rot) * (reduce ? 1 : 0.06);
+  group.rotation.y = rot;
 
   nodes.forEach((m, i) => {
     const isA = i === active, isH = i === hover;
@@ -517,7 +518,7 @@ function render(t) {
   });
   nodes[active].getWorldPosition(halo.position);
   halo.quaternion.copy(camera.quaternion);
-  halo.material.opacity = 0.55 + (reduce ? 0 : Math.sin(t * 0.003) * 0.25);
+  halo.material.opacity = 0.8;
   hoverRing.visible = hover >= 0 && hover !== active;
   if (hoverRing.visible) { nodes[hover].getWorldPosition(hoverRing.position); hoverRing.quaternion.copy(camera.quaternion); }
   renderer.render(scene, camera);

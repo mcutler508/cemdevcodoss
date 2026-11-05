@@ -45,6 +45,34 @@ Scores come from TypeSafe's Jev model (jev-1.14.0), re-run Nov. 4, 2026 after ad
 
 The low harm score reflects missing paperwork, not how much harm you have suffered. It is the easiest score to raise.
 
+## Morgan Cemetery: history, control and money
+
+Morgan Cemetery is a 138-year-old nonprofit cemetery at 1100 Cinnaminson Avenue. Since at least 2016 it has been controlled by Cicalese, who is its president. The original dedicated boundary is the fact the boundary question turns on, and it is not online.
+
+**History.** William F. Morgan founded it in 1888 ([Morgan Cemetery](https://www.morgancemeteryassoc.com/); [MapQuest listing](https://www.mapquest.com/us/new-jersey/morgan-cemetery-352689965)). Search excerpts of digitized local papers mention burials there by 1892, and "Morgan Cemetery, Inc." appears in a 1929 paper ([Riverton Historical Society archive, 1892](https://rivertonhistory.com/wp-content/uploads/2020/07/THE-WEEKLY-NEWS-1892-01.pdf); [1929](https://rivertonhistory.com/wp-content/uploads/2020/07/THE-NEW-ERA-1929-12.pdf)). Its own homepage wrongly places it in Cherry Hill, which suggests the CemDevCo site template was reused without much care.
+
+**Who controls it.** The operating nonprofit is Morgan-Cemetery Inc., EIN 22-2854827, a 501(c)(13) cemetery company listed in Camden. Its IRS exemption was issued in April 2015 ([ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827)). Camden is CemDevCo's office address. 2025 officers: Louis Cicalese (president), Michael Baratta (vice president), and trustees Michael Carvin, David Jacobs and Michelle Cicalese.
+
+**Money (Form 990, from ProPublica).** Cicalese takes no pay from Morgan directly. He reports "related" pay from affiliated organizations of $15,000 to $236,000 a year.
+
+| Tax year | Revenue | Expenses | Total assets | Cicalese related pay |
+| --- | --- | --- | --- | --- |
+| 2025 | $429,116 | $255,159 | $2,662,977 | $93,463 |
+| 2024 | $453,986 | $1,292,984 | $2,910,537 | $141,556 |
+| 2023 | $598,711 | $535,223 | $4,516,652 | $217,925 |
+| 2022 | $913,422 | $640,322 | $4,316,650 | $235,958 |
+| 2021 | $646,211 | $423,840 | $4,349,034 | $80,000 |
+| 2020 | $417,446 | $377,252 | $4,056,742 | $47,178 |
+| 2019 | $263,775 | $323,732 | $3,970,805 | $20,338 |
+| 2018 | $264,179 | $170,153 | $4,040,598 | $15,725 |
+| 2017 | $154,018 | $110,543 | $3,918,622 | $15,000 |
+| 2016 | $149,966 | $185,996 | $3,843,968 | $43,301 |
+| 2015 | $335,881 | $411,509 | $3,856,307 | not listed |
+
+Two things stand out. Revenue rose about sixfold from 2017 to 2022, consistent with much more burial activity. And total assets fell by $1.85 million between 2023 and 2025, with 2024 spending at $1.29 million. Many NJ cemeteries must keep a Maintenance and Preservation Trust Fund, and the Board supervises it ([NJ Cemetery Board](https://www.njconsumeraffairs.gov/cem/Pages/default.aspx)). The full filings show where the 2024 money went: to Cicalese's own trust (see "Follow the money" below).
+
+**Local footprint.** Cinnaminson police reports to the Township Committee log "Morgan Cemetery calls": 56 in one period reported January 2026 and 61 in one reported April 2026. Both are described as "all normal property checks" ([Jan. 12, 2026 minutes](https://cinnaminsonnj.org/wp-content/uploads/2026/02/Jan-12-26.pdf); [Apr. 20, 2026 minutes](https://cinnaminsonnj.org/wp-content/uploads/2026/05/Apr-20-26.pdf)). These look like routine patrol checks, not complaints. No Township Committee or Planning Board record of a Morgan expansion or consent resolution turned up online.
+
 ## Township enforcement notice (April 7, 2025)
 
 Cinnaminson's zoning office has already found that Morgan broke the township code by burying in perimeter areas without approval. The cemetery says it is grandfathered. That is a defense it can raise in court, not a bar to the Township filing charges. About 20 burials have followed the notice, according to the adjoining owner.
@@ -147,34 +175,6 @@ Eight public matters tie Cicalese or his cemeteries to legal or regulatory actio
 | 1996 | Rosemount burials under sidewalks, up to 9 per grave, resold graves ([lehighvalleylive](https://www.lehighvalleylive.com/news/2020/06/body-unearthed-from-warren-county-cemetery-grave-renews-call-for-state-action.html); [NYT](https://www.nytimes.com/1996/05/04/nyregion/newark-cemetery-acknowledges-burying-people-under-sidewalks.html)) | Division of Consumer Affairs | Regulatory | **$60,000 fine** paid by the cemetery and its principals, Cicalese and Lawrence Nikola |
 
 The NYT article could not be opened for this review; its facts here come from the 2020 lehighvalleylive summary. Pull the original before citing it.
-
-## Morgan Cemetery: history, control and money
-
-Morgan Cemetery is a 138-year-old nonprofit cemetery at 1100 Cinnaminson Avenue. Since at least 2016 it has been controlled by Cicalese, who is its president. The original dedicated boundary is the fact the boundary question turns on, and it is not online.
-
-**History.** William F. Morgan founded it in 1888 ([Morgan Cemetery](https://www.morgancemeteryassoc.com/); [MapQuest listing](https://www.mapquest.com/us/new-jersey/morgan-cemetery-352689965)). Search excerpts of digitized local papers mention burials there by 1892, and "Morgan Cemetery, Inc." appears in a 1929 paper ([Riverton Historical Society archive, 1892](https://rivertonhistory.com/wp-content/uploads/2020/07/THE-WEEKLY-NEWS-1892-01.pdf); [1929](https://rivertonhistory.com/wp-content/uploads/2020/07/THE-NEW-ERA-1929-12.pdf)). Its own homepage wrongly places it in Cherry Hill, which suggests the CemDevCo site template was reused without much care.
-
-**Who controls it.** The operating nonprofit is Morgan-Cemetery Inc., EIN 22-2854827, a 501(c)(13) cemetery company listed in Camden. Its IRS exemption was issued in April 2015 ([ProPublica](https://projects.propublica.org/nonprofits/organizations/222854827)). Camden is CemDevCo's office address. 2025 officers: Louis Cicalese (president), Michael Baratta (vice president), and trustees Michael Carvin, David Jacobs and Michelle Cicalese.
-
-**Money (Form 990, from ProPublica).** Cicalese takes no pay from Morgan directly. He reports "related" pay from affiliated organizations of $15,000 to $236,000 a year.
-
-| Tax year | Revenue | Expenses | Total assets | Cicalese related pay |
-| --- | --- | --- | --- | --- |
-| 2025 | $429,116 | $255,159 | $2,662,977 | $93,463 |
-| 2024 | $453,986 | $1,292,984 | $2,910,537 | $141,556 |
-| 2023 | $598,711 | $535,223 | $4,516,652 | $217,925 |
-| 2022 | $913,422 | $640,322 | $4,316,650 | $235,958 |
-| 2021 | $646,211 | $423,840 | $4,349,034 | $80,000 |
-| 2020 | $417,446 | $377,252 | $4,056,742 | $47,178 |
-| 2019 | $263,775 | $323,732 | $3,970,805 | $20,338 |
-| 2018 | $264,179 | $170,153 | $4,040,598 | $15,725 |
-| 2017 | $154,018 | $110,543 | $3,918,622 | $15,000 |
-| 2016 | $149,966 | $185,996 | $3,843,968 | $43,301 |
-| 2015 | $335,881 | $411,509 | $3,856,307 | not listed |
-
-Two things stand out. Revenue rose about sixfold from 2017 to 2022, consistent with much more burial activity. And total assets fell by $1.85 million between 2023 and 2025, with 2024 spending at $1.29 million. Many NJ cemeteries must keep a Maintenance and Preservation Trust Fund, and the Board supervises it ([NJ Cemetery Board](https://www.njconsumeraffairs.gov/cem/Pages/default.aspx)). The full filings show where the 2024 money went: to Cicalese's own trust (next section).
-
-**Local footprint.** Cinnaminson police reports to the Township Committee log "Morgan Cemetery calls": 56 in one period reported January 2026 and 61 in one reported April 2026. Both are described as "all normal property checks" ([Jan. 12, 2026 minutes](https://cinnaminsonnj.org/wp-content/uploads/2026/02/Jan-12-26.pdf); [Apr. 20, 2026 minutes](https://cinnaminsonnj.org/wp-content/uploads/2026/05/Apr-20-26.pdf)). These look like routine patrol checks, not complaints. No Township Committee or Planning Board record of a Morgan expansion or consent resolution turned up online.
 
 ## Follow the money: Morgan owes its president
 

@@ -59,11 +59,7 @@ a:hover { text-decoration-color: hsl(var(--foreground)); }
 header.top { padding: 48px 16px 28px; }
 header.top .wrap { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
 header.top .intro { min-width: 0; }
-.badge { display: inline-flex; align-items: center; gap: 8px; height: 26px; padding: 0 10px; border-radius: 999px;
-  border: 1px solid hsl(var(--border)); background: hsl(var(--card-glass)); backdrop-filter: blur(8px);
-  font: 500 12px/1 Inter, sans-serif; color: hsl(var(--muted-foreground)); }
-.badge .dot { width: 6px; height: 6px; border-radius: 50%; background: hsl(var(--brand)); box-shadow: 0 0 0 3px hsl(var(--brand) / .2); }
-header.top h1 { font: 400 clamp(30px, 3.6vw, 48px)/1.08 "Instrument Serif", Georgia, serif; letter-spacing: -.01em; margin: 16px 0 12px; }
+header.top h1 { font: 400 clamp(30px, 3.6vw, 48px)/1.08 "Instrument Serif", Georgia, serif; letter-spacing: -.01em; margin: 0 0 12px; }
 header.top h1 em { font-style: italic; color: hsl(var(--muted-foreground)); }
 .meta { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; color: hsl(var(--muted-foreground)); font-size: 13px; }
 .meta .sep { width: 3px; height: 3px; border-radius: 50%; background: hsl(var(--muted-foreground) / .6); }
@@ -195,7 +191,6 @@ footer { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padd
 <div class="shell">
 <header class="top"><div class="wrap">
  <div class="intro">
-  <span class="badge"><span class="dot"></span>Research dossier · prepared for counsel and Cinnaminson Township</span>
   <h1>Morgan Cemetery / CemDevCo / Louis Cicalese<br><em>Research dossier</em></h1>
   <div class="meta">
     <span>As of November 4, 2026</span><span class="sep"></span>

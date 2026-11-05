@@ -16,7 +16,7 @@ This dossier gathers public records on Morgan Cemetery (Cinnaminson Township, Bu
 Cinnaminson already found Morgan in violation: an April 7, 2025 enforcement notice says its perimeter burials lack Planning Board approval and a zoning permit and ignore R-2 setbacks (15 ft side, 25 ft rear). About 20 burials have followed. The Township's stated reason for not enforcing is the cemetery's grandfather claim, which is a defense to argue in court, not a bar. Separately, Morgan may be burying on land it was never approved to use. State law bars enlarging a cemetery without a township consent resolution and Cemetery Board approval ([N.J.S.A. 45:27-25](https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/41981/44260?f=templates$fn=document-frame.htm$3.0)).
 
 - **Operator:** Morgan Cemetery (Cinnaminson, founded 1888) is run by Louis Cicalese, president, through his company CemDevCo, which runs about 18 NJ cemeteries and crematories.
-- **Track record:** In 1996 Cicalese and a partner paid a **$60,000 state fine** over burials under sidewalks, up to nine people per grave, and resold graves. Since then his cemeteries have drawn complaints about crowding new graves among old ones (Warren County, 2018–2020), work without local permits, and burials on disputed land (Tinton Falls, 2023–2026). These are allegations and open investigations, not findings.
+- **Track record:** In 1996 Cicalese and a partner paid a **$60,000 state fine** over burials under sidewalks, up to nine people per grave, and resold graves. Since then his cemeteries have drawn complaints about crowding new graves among old ones (Warren County, 2018–2020), work without local permits, and burials on disputed land, alleged to number in the hundreds and by one community paper's count more than 700 (Tinton Falls, 2018–2026). These are allegations and open investigations, not findings.
 - **Towns have acted:** Tinton Falls joined a lawsuit against him in 2023 (MON-L-1120-23). Washington Borough took complaints to the Board, and residents there blocked a 125-acre expansion in 2012.
 - **"Grandfathering":** The Township's notice treats perimeter burials as a new or changed use of land that needs a permit. Nonconforming status generally protects only the use as it existed. Whether Morgan's whole tract counts as "in use" since 1888 is the key legal question.
 - **Money:** Morgan owes Cicalese's own trust millions on a land certificate that grave sales repay. It paid the trust about $2.2M in 2024–2025, leaving about $60K in operating cash. Its board is made up of his sister, employees of his company, and their accountant.
@@ -154,7 +154,7 @@ Cicalese has a 30-year public record of cemeteries he runs drawing complaints ab
 2. **New rows squeezed in among existing graves (allegation, 2018–2020).** At Washington Cemetery, families said new gravesites were "intermingling with existing ones," with new rows created among existing plots. In June 2020, "old human bones" turned up with casket debris; the prosecutor called it accidental. The Cemetery Board confirmed two open complaints against the association "and its President Louis Cicalese" ([lehighvalleylive 2020](https://www.lehighvalleylive.com/news/2020/06/body-unearthed-from-warren-county-cemetery-grave-renews-call-for-state-action.html)).
 3. **Work without local permits (allegation, 2018).** Washington Borough's 2018 letter said a 600-foot road was built, trees cut, and 53,000 sq ft of soil moved in without permits or borough approval (same source).
 4. **Expansion pushed against neighbors (2012).** CemDevCo applied for a use variance to add 125 acres to Washington Cemetery. It withdrew three days before the hearing, after a packed meeting of residents opposed it ([lehighvalleylive 2012](https://www.lehighvalleylive.com/warren-county/express-times/2012/02/washington_cemetery_withdraws.html)).
-5. **Burials on disputed land (lawsuit, 2023–2024; still disputed 2026).** In Tinton Falls, Ruffin family descendants and the Borough itself sued Cicalese and associates over Ruffin Cemetery. Plaintiffs say hundreds of remains were buried there since 2018 without authorization. After trial, the court dismissed the claims in August 2024 for lack of ownership proof, but said ownership itself was not decided ([News 12, May 2026](https://newjersey.news12.com/woman-fights-to-have-remains-of-strangers-removed-from-family-cemetery)). In 2005 board minutes, two Ruffin heirs told the Board they never authorized him to manage the cemetery; he disputed that ([Cemetery Board minutes, Sept. 2005](https://www.njconsumeraffairs.gov/cem/Minutes/cemmin_090805.pdf)).
+5. **Burials on disputed land (lawsuit, 2023–2024; still disputed 2026).** In Tinton Falls, Ruffin family descendants and the Borough itself sued Cicalese and associates over Ruffin Cemetery. Plaintiffs say hundreds of remains were buried there since 2018 without authorization; The Echo Press put the number at more than 700 (see "Complaints in detail"). After trial, the court dismissed the claims in August 2024 for lack of ownership proof, but said ownership itself was not decided ([News 12, May 2026](https://newjersey.news12.com/woman-fights-to-have-remains-of-strangers-removed-from-family-cemetery)). In 2005 board minutes, two Ruffin heirs told the Board they never authorized him to manage the cemetery; he disputed that ([Cemetery Board minutes, Sept. 2005](https://www.njconsumeraffairs.gov/cem/Minutes/cemmin_090805.pdf)).
 6. **Grave care and oversight (reports, 2013 and 2017).** In 2017 police found a body exposed atop a coffin in an unfilled grave at Rosemount; the state investigated ([NJ.com](https://www.nj.com/union/2017/07/elizabeth_cemetery_left_body_exposed_to_elements_i.html)). In 2013 Rosemount's crematory hired a man convicted in a body-parts theft scheme; he was let go after press coverage ([CBS New York](https://www.cbsnews.com/newyork/news/convicted-body-parts-snatcher-found-working-at-cemetery/)).
 
 **What has not been found.** No criminal charge against Cicalese turned up. No Cemetery Board sanction after 1996 was found online. The 2013 Board action in the record was against a CemDevCo salesperson, not Cicalese, who was only copied ([2013 letter](https://www.njconsumeraffairs.gov/Actions/20130114_47SP00137100.pdf)). Calling him "fraudulent" in a filing would go beyond this record. The safer framing is a documented pattern of complaints about burial placement and land use.
@@ -175,6 +175,49 @@ Eight public matters tie Cicalese or his cemeteries to legal or regulatory actio
 | 1996 | Rosemount burials under sidewalks, up to 9 per grave, resold graves ([lehighvalleylive](https://www.lehighvalleylive.com/news/2020/06/body-unearthed-from-warren-county-cemetery-grave-renews-call-for-state-action.html); [NYT](https://www.nytimes.com/1996/05/04/nyregion/newark-cemetery-acknowledges-burying-people-under-sidewalks.html)) | Division of Consumer Affairs | Regulatory | **$60,000 fine** paid by the cemetery and its principals, Cicalese and Lawrence Nikola |
 
 The NYT article could not be opened for this review; its facts here come from the 2020 lehighvalleylive summary. Pull the original before citing it.
+
+## Complaints in detail
+
+The biggest allegation is from Tinton Falls: that Cicalese's operation buried the remains of **more than 700 people**, brought in from New York and Long Island, in a small historic family cemetery without the heirs' consent. The 700 figure comes from a community paper with an advocacy slant (The Echo Press). Mainstream coverage (News 12) says "hundreds." No court or regulator has confirmed a number, and the 2024 trial ended without a ruling on the merits.
+
+**Tinton Falls – Ruffin Cemetery (also called Pine Brook Cemetery), 2018–2026**
+
+| What is alleged | Who says it | Source |
+| --- | --- | --- |
+| A small 200-year-old family cemetery with few burials for decades was "suddenly filling with the remains of hundreds of people from New York City and Long Island"; families accuse the operators of "fraud and deceit" | Families of those buried there, reported by News 12 (Jan. 30, 2023) | [News 12](https://newjersey.news12.com/2023/01/31/families-of-those-buried-in-tinton-falls-ruffin-cemetery-accuse-operators-of-fraud-and-deceit/3qxkf1Vj2wpMQaNGfRWKzn) |
+| "Over 700 bodies from N.Y." placed in a historic cemetery "located on wetlands" | The Echo Press, reporting a Jan. 17, 2023 Tinton Falls council meeting | [Echo Press, Jan. 2023](https://www.echonewstv.com/post/illegal-burial-service-trespasses-on-historic-black-1st-nation-burial-sites-in-tinton-falls-n-j) |
+| "More than 700 human remains" buried "unceremoniously," without the plot owner's heirs' approval, as "cheap burials by the hundreds through New York and Long Island funeral homes" | The Echo Press, urging readers to file Cemetery Board complaints by Feb. 8, 2023 | [Echo Press, Feb. 2023](https://www.echonewstv.com/post/stop-louis-cicalese-baratta-from-desecrating-the-ruffin-family-cemetery-by-submitting-a-complaint) |
+| "Over 800 remains," many said to have died of COVID-19 | The Echo Press editor's opinion column (July 18, 2023) | [Echo Press, July 2023](https://www.echonewstv.com/post/the-unconscionable-desecration-of-historic-black-owned-ruffin-cemetary-in-tinton-falls-n-j-update) |
+| Hundreds of remains buried since 2018 without the family's authorization; she wants them removed and is seeking compensation | Carrie Jones, a Ruffin descendant (May 2026) | [News 12, May 2026](https://newjersey.news12.com/woman-fights-to-have-remains-of-strangers-removed-from-family-cemetery) |
+| The heirs never authorized him to manage the cemetery, fund surveys or build a fence, and told him to stop contacting them | Ruffin heirs Margaret Conover and Lilly Jackson, in letters to the Cemetery Board (2005) | [Board minutes, Sept. 2005](https://www.njconsumeraffairs.gov/cem/Minutes/cemmin_090805.pdf) |
+
+**His side:** In 2005 Cicalese told the Board the cemetery was a community cemetery, not a family one, and that he had advanced money for a survey and a fence. In 2026 his attorney disputed that Jones or her family owns the land, citing the August 2024 judgment. That judgment dismissed the plaintiffs' claims for lack of ownership proof and expressly left ownership open ([News 12, May 2026](https://newjersey.news12.com/woman-fights-to-have-remains-of-strangers-removed-from-family-cemetery)). The Borough of Tinton Falls joined the suit as plaintiff-intervenor (MON-L-1120-23).
+
+**About the sources:** The Echo Press pieces include an opinion column and a call to action, and some contain charged language not repeated here. Use them as evidence of what was alleged and when, not as proof. The burial count can be checked through the Cemetery Board's interment records and Tinton Falls burial permits (see the records checklist).
+
+**Washington Cemetery (Warren County), 2018–2020**, as reported by [lehighvalleylive](https://www.lehighvalleylive.com/news/2020/06/body-unearthed-from-warren-county-cemetery-grave-renews-call-for-state-action.html):
+
+- New gravesites "intermingling with existing ones" and new rows created among existing plots, with families unable to find marked graves.
+- Headstones toppled, smashed or buried under brush, equipment allegedly driven over headstones, and stone and soil dumped around them.
+- A 600-ft road built, trees removed and 53,000 sq ft of soil moved in without permits (the Borough's 2018 letter).
+- Large crowds for burials, garbage left behind and open burns.
+- June 2020: "old human bones" found with brick, slate and casket debris. The prosecutor found no crime.
+- His side: Baratta wrote that the photos showed storm damage before cleanup and that "memorials have not been bulldozed."
+
+**Rosemount Memorial Park (Elizabeth/Newark)**
+
+- 1996 (finding): bodies buried under sidewalks, up to nine people in one grave, and graves families had bought illegally reclaimed. $60,000 fine ([lehighvalleylive](https://www.lehighvalleylive.com/news/2020/06/body-unearthed-from-warren-county-cemetery-grave-renews-call-for-state-action.html)).
+- 2013: the crematory hired a man convicted in a body-parts theft scheme ([CBS New York](https://www.cbsnews.com/newyork/news/convicted-body-parts-snatcher-found-working-at-cemetery/)).
+- 2017: a body was left exposed on top of a coffin in an unfilled grave, partly submerged in water ([NJ.com](https://www.nj.com/union/2017/07/elizabeth_cemetery_left_body_exposed_to_elements_i.html)).
+
+**Morgan Cemetery (Cinnaminson), 2025–2026**
+
+- Township finding (April 7, 2025): perimeter burials without Planning Board approval or a zoning permit, ignoring R-2 setbacks, after complaints from neighbors.
+- The adjoining owner reports burials inches from the fence in a 15-ft strip that had no graves in 2017, about 20 of them since the notice.
+
+**The common thread:** in each place, the complaints describe burials packed into space that was not previously used or approved, at sites tied to his companies.
+
+**Your own complaint channel:** the Cemetery Board takes written complaints on its [complaint form](https://www.njconsumeraffairs.gov/ComplaintsForms/New-Jersey-Cemetery-Board-Complaint-Form.pdf).
 
 ## Follow the money: Morgan owes its president
 
@@ -309,6 +352,12 @@ The case turns on records that are not online: Morgan's dedicated boundary, any 
 - [ ] Morgan's annual reports and Maintenance and Preservation Fund filings to the Board, 2015–2025.
 - [ ] Any Board review of Saucha Trust certificates at other Cicalese cemeteries (Machpelah 2013, Washington).
 
+**Tinton Falls burial count (OPRA):**
+
+- [ ] Cemetery Board: complaints filed about Ruffin or Pine Brook Cemetery since 2018 (including the February 2023 wave), and any Board response.
+- [ ] Cemetery Board: interment records or reports for Ruffin Cemetery Corp., 2018–present, to confirm or refute the 700 figure.
+- [ ] Tinton Falls registrar: burial permits recorded for that cemetery, 2018–present.
+
 **Your own evidence to assemble:**
 
 - [ ] A licensed survey of your line, with the graves located and measured from it.
@@ -362,6 +411,11 @@ Opened for this review on Nov. 4, 2026 unless noted.
 - [lehighvalleylive, "Washington Cemetery withdraws application to expand," Feb. 25, 2012](https://www.lehighvalleylive.com/warren-county/express-times/2012/02/washington_cemetery_withdraws.html)
 - [New York Times, "Newark Cemetery Acknowledges Burying People Under Sidewalks," May 4, 1996](https://www.nytimes.com/1996/05/04/nyregion/newark-cemetery-acknowledges-burying-people-under-sidewalks.html) (not opened; could not be retrieved)
 - [The Echo Press, Tinton Falls council meeting, Jan. 2023](https://www.echonewstv.com/post/illegal-burial-service-trespasses-on-historic-black-1st-nation-burial-sites-in-tinton-falls-n-j) (advocacy-toned community outlet; used only for background)
+
+* [News 12 NJ, "Families of those buried in Tinton Falls' Ruffin Cemetery accuse operators of fraud and deceit," Jan. 30, 2023](https://newjersey.news12.com/2023/01/31/families-of-those-buried-in-tinton-falls-ruffin-cemetery-accuse-operators-of-fraud-and-deceit/3qxkf1Vj2wpMQaNGfRWKzn) (headline and summary only; video not reviewed)
+* [The Echo Press, call to file Cemetery Board complaints ("more than 700 human remains"), Feb. 7, 2023](https://www.echonewstv.com/post/stop-louis-cicalese-baratta-from-desecrating-the-ruffin-family-cemetery-by-submitting-a-complaint) (advocacy piece)
+* [The Echo Press, editor's opinion column ("over 800 remains"), July 18, 2023](https://www.echonewstv.com/post/the-unconscionable-desecration-of-historic-black-owned-ruffin-cemetary-in-tinton-falls-n-j-update) (opinion)
+* [NJ Cemetery Board complaint form](https://www.njconsumeraffairs.gov/ComplaintsForms/New-Jersey-Cemetery-Board-Complaint-Form.pdf)
 
 **Operator's own sites**
 
